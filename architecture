@@ -1,0 +1,20 @@
+                    Internet
+                         |
+                    [ pfSense ]
+                         |
+      --------------------------------------
+      |                                    |
+  SOC Network                         Attack Network
+      |                                    |
+  Wazuh SIEM                          Kali Linux
+      |
+  Suricata IDS/IPS
+      |
+  Zeek NSM
+      |
+  Velociraptor
+      |
+ ------------------------------------------
+ |                    |                    |
+Windows 11       Ubuntu Server       REMnux
+Sysmon Agent     Wazuh Agent       Malware Analysis
